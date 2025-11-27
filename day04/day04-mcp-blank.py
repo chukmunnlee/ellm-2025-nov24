@@ -1,5 +1,4 @@
 import requests
-import pandas as pd
 
 # TODO: Import fastmcp
 from mcp.server.fastmcp import FastMCP
@@ -11,7 +10,7 @@ from mcp.server.fastmcp import FastMCP
 # TODO: Create MCP server
 # FIX: jira-12345
 # Description: asdfasdf
-mcp = FastMCP('Crypto MCP')
+mcp = FastMCP('Crypto_MCP')
 
 @mcp.tool()
 def get_crypto_price(crypto = 'bitcoin') -> str:

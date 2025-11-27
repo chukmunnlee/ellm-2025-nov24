@@ -1,0 +1,3 @@
+To install mcp on Claude desktop
+
+mcp install --with-editable . ./day04-mcp-blank.py
